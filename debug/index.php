@@ -4,6 +4,6 @@ require __DIR__ . "/../vendor/autoload.php";
 
 use App\ContaBancaria;
 
-$contaBancaria = new ContaBancaria();
+$conta = new ContaBancaria();
 
-var_dump($contaBancaria);
+var_dump($conta->exibirDadosDaContaCliente());
